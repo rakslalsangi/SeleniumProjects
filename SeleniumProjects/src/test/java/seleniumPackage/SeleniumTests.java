@@ -7,6 +7,9 @@ import org.testng.annotations.Test;
 
 public class SeleniumTests {
 
+	
+	// Added to GitHub repository 
+	
 	WebDriver driver = null;
 
 	@Test(priority = 1)
