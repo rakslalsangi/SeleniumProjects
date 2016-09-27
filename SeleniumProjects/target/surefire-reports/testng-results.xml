@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="27679" started-at="2016-09-26T11:43:05Z" finished-at="2016-09-26T11:43:33Z">
+  <suite name="Suite1" duration-ms="9544" started-at="2016-09-27T09:34:38Z" finished-at="2016-09-27T09:34:48Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="27679" started-at="2016-09-26T11:43:05Z" finished-at="2016-09-26T11:43:33Z">
+    <test name="Test1" duration-ms="9544" started-at="2016-09-27T09:34:38Z" finished-at="2016-09-27T09:34:48Z">
       <class name="seleniumPackage.SeleniumTests">
-        <test-method status="PASS" signature="OpenBrowser()[pri:1, instance:seleniumPackage.SeleniumTests@dfd3711]" name="OpenBrowser" duration-ms="6306" started-at="2016-09-26T17:13:05Z" finished-at="2016-09-26T17:13:11Z">
+        <test-method status="PASS" signature="OpenBrowser()[pri:1, instance:seleniumPackage.SeleniumTests@1fd3711]" name="OpenBrowser" duration-ms="1433" started-at="2016-09-27T15:04:38Z" finished-at="2016-09-27T15:04:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="OpenSite()[pri:2, instance:seleniumPackage.SeleniumTests@dfd3711]" name="OpenSite" duration-ms="21092" started-at="2016-09-26T17:13:11Z" finished-at="2016-09-26T17:13:32Z">
+        <test-method status="PASS" signature="OpenSite()[pri:2, instance:seleniumPackage.SeleniumTests@1fd3711]" name="OpenSite" duration-ms="7021" started-at="2016-09-27T15:04:39Z" finished-at="2016-09-27T15:04:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenSite -->
-        <test-method status="FAIL" signature="VerifyTitle()[pri:3, instance:seleniumPackage.SeleniumTests@dfd3711]" name="VerifyTitle" duration-ms="4" started-at="2016-09-26T17:13:32Z" finished-at="2016-09-26T17:13:32Z">
+        <test-method status="FAIL" signature="VerifyTitle()[pri:3, instance:seleniumPackage.SeleniumTests@1fd3711]" name="VerifyTitle" duration-ms="3" started-at="2016-09-27T15:04:47Z" finished-at="2016-09-27T15:04:47Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [2] but found [1]]]>
@@ -27,7 +27,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at seleniumPackage.SeleniumTests.VerifyTitle(SeleniumTests.java:29)
+	at seleniumPackage.SeleniumTests.VerifyTitle(SeleniumTests.java:33)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTitle -->
-        <test-method status="PASS" signature="Close()[pri:4, instance:seleniumPackage.SeleniumTests@dfd3711]" name="Close" duration-ms="255" started-at="2016-09-26T17:13:32Z" finished-at="2016-09-26T17:13:33Z">
+        <test-method status="PASS" signature="Close()[pri:4, instance:seleniumPackage.SeleniumTests@1fd3711]" name="Close" duration-ms="1066" started-at="2016-09-27T15:04:47Z" finished-at="2016-09-27T15:04:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
