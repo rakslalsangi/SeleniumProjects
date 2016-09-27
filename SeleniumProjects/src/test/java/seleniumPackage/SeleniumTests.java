@@ -9,6 +9,7 @@ public class SeleniumTests {
 
 	
 	// Added to GitHub repository 
+	// Added for check the jenkins data updates
 	
 	WebDriver driver = null;
 
